@@ -12,7 +12,7 @@ function App() {
       <Stack.Navigator headerMode="none">
         <Stack.Screen name="Screen_03" component={Screen.Screen_03} />
         <Stack.Screen name="Screen_04" component={Screen.Screen_04} />
-
+        <Stack.Screen name="Payment" component={Screen.PayPalPayment} />
         <Stack.Screen name="Screen_15" component={Screen.Screen_15} />
       </Stack.Navigator>
     </NavigationContainer>

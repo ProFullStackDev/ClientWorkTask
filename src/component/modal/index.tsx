@@ -70,7 +70,6 @@ const ModalView: React.FC<Props> = (props: Props) => {
                 style={{
                   color: 'white',
                   fontWeight: '300',
-                  fontFamily: 'Roboto',
                 }}
               >
                 Ok{' '}
@@ -131,7 +130,6 @@ const ModalView: React.FC<Props> = (props: Props) => {
               >
                 <Text
                   style={{
-                    fontFamily: 'Roboto',
                     fontWeight: 'bold',
                     lineHeight: 14.06,
                   }}
@@ -157,7 +155,7 @@ const ModalView: React.FC<Props> = (props: Props) => {
                 <Text
                   style={{
                     color: 'white',
-                    fontFamily: 'Roboto',
+
                     fontWeight: 'bold',
                     lineHeight: 14.06,
                   }}
@@ -206,7 +204,6 @@ const ModalView: React.FC<Props> = (props: Props) => {
                 <Text
                   style={{
                     color: 'black',
-                    fontFamily: 'Roboto',
                     fontWeight: 'bold',
                     lineHeight: 14.06,
                   }}
@@ -282,7 +279,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     bottom: 0,
     justifyContent: 'space-evenly',
-    height: '28%',
+    height: '35%',
   },
 });
 

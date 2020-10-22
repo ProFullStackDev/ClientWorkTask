@@ -64,10 +64,10 @@ const Data: Screen_03_data[] = [
       <>
         <View style={{ width: '50%' }}>
           <View style={{ paddingTop: 35, paddingLeft: 34 }}>
-            <Text style={{ fontSize: 12, fontWeight: 'bold', lineHeight: 14.06, fontFamily: 'Roboto', color: '#A6A6A6' }}>{item.item.date}</Text>
+            <Text style={{ fontSize: 12, fontWeight: 'bold', lineHeight: 14.06,  color: '#A6A6A6' }}>{item.item.date}</Text>
           </View>
           <View style={{ paddingTop: 15, paddingLeft: 34 }}>
-            <Text style={{ fontSize: 24, lineHeight: 30, letterSpacing: 1, fontWeight: '400', fontFamily: 'Roboto', color: '#3E3E3E' }}>{item.item.name}</Text>
+            <Text style={{ fontSize: 24, lineHeight: 30, letterSpacing: 1, fontWeight: '400',  color: '#3E3E3E' }}>{item.item.name}</Text>
           </View>
           <View style={{ paddingTop: 2, paddingLeft: 34 }}>
             <Text>{item.item.info}</Text>
@@ -76,7 +76,7 @@ const Data: Screen_03_data[] = [
         <View style={{ width: '50%' }}>
           <View style={{ paddingTop: 29, paddingRight: 34, alignItems: 'flex-end' }}>
             <TouchableOpacity style={{ backgroundColor: '#7D7D7D', borderRadius: 5, paddingVertical: 7, paddingHorizontal: 33 }}>
-              <Text style={{ fontSize: 12, fontFamily: 'Roboto', fontWeight: 'bold', lineHeight: 14.06, color: '#ffffff' }}>LOREM</Text>
+              <Text style={{ fontSize: 12,fontWeight: 'bold', lineHeight: 14.06, color: '#ffffff' }}>LOREM</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -88,7 +88,7 @@ const Data: Screen_03_data[] = [
     <View style={{ flex: 1}}>
             <Header changeColor={false}/>
             <View style={{ width: '100%', height: 50, backgroundColor: '#8B8B8B', paddingLeft: 34, justifyContent: 'center', paddingTop: 13, paddingBottom: 14 }}>
-                <Text style={{ fontSize: 14, lineHeight: 24, fontWeight: '500', fontFamily: 'Roboto', color: '#ffffff' }}>Lorem ipsum</Text>
+                <Text style={{ fontSize: 14, lineHeight: 24, fontWeight: '500', color: '#ffffff' }}>Lorem ipsum</Text>
             </View>
             <View style={{ flex: 1 }}>
                 <FlatList

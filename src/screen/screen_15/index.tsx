@@ -70,18 +70,18 @@ const Data: Screen_15_data[] = [
             <Text style={{ fontSize: 24, fontWeight: '400', lineHeight: 25,  color: 'black' }}>{item.item.name} </Text>
           </View>
           <View style={{ paddingTop: 15, paddingLeft: 34 }}>
-            <Text style={{ fontSize: 16, lineHeight: 18, letterSpacing: 0.4, fontFamily: 'Roboto', color: '#3E3E3E' }}>{item.item.info}</Text>
+            <Text style={{ fontSize: 16, lineHeight: 18, letterSpacing: 0.4,  color: '#3E3E3E' }}>{item.item.info}</Text>
           </View>
           <View style={{ paddingTop:8, paddingLeft: 34,width:screenWidth/2.8 }}>
           <TouchableOpacity style={{ backgroundColor: '#7D7D7D', borderRadius: 8, paddingVertical: 7, alignItems:'center' }}>
-              <Text style={{ fontSize: 12, fontFamily: 'Roboto', fontWeight: 'bold', lineHeight: 14.06, color: '#ffffff' }}>LOREM</Text>
+              <Text style={{ fontSize: 12,  fontWeight: 'bold', lineHeight: 14.06, color: '#ffffff' }}>LOREM</Text>
             </TouchableOpacity>
           </View>
         </View>
         <View style={{ width: '30%',top:30,position:'absolute',right:30 }}>
           <View style={{ paddingTop: 29, paddingRight: 10, alignItems: 'flex-end' }}>
             
-              <Text style={{ fontSize: 12, fontFamily: 'Roboto', fontWeight: 'bold', lineHeight: 14.06, color: 'black' }}>{item.item.date}</Text>
+              <Text style={{ fontSize: 12,  fontWeight: 'bold', lineHeight: 14.06, color: 'black' }}>{item.item.date}</Text>
            
           </View>
         </View>

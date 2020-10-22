@@ -33,7 +33,7 @@ const Screen_04: React.FunctionComponent = (props:any) =>{
                         <Text style={{ opacity: 0.6, lineHeight: 24, color:'#3E3E3E', fontWeight:'400', fontSize: 16 }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</Text>
                     </View>
                     <View style={{ paddingTop: 25, paddingBottom: 39, paddingLeft: 31, backgroundColor:'#ffffff' }}>
-                        <Text style={{ textDecorationLine:'underline', fontSize: 12, fontWeight: '400', lineHeight: 14.06, fontFamily:'Roboto', color:'#3E3E3E'  }}>LOREM IPSUM</Text>
+                        <Text style={{ textDecorationLine:'underline', fontSize: 12, fontWeight: '400', lineHeight: 14.06,  color:'#3E3E3E'  }}>LOREM IPSUM</Text>
                     </View>
                     <View style={{ alignItems:'center', backgroundColor:'#ffffff', paddingLeft: 31, paddingRight: 35 }}>
                             <Border />
@@ -73,7 +73,7 @@ const Screen_04: React.FunctionComponent = (props:any) =>{
                         <Text style={{ fontSize: 14, textAlign:'center', color:'#3E3E3E', opacity: 0.6 }}>Lorem Ipsum</Text>
                     </View>
                     <View style={{ width:'100%', backgroundColor:'#ffffff', paddingTop: 14, paddingHorizontal: 32 }}>
-                        <TouchableOpacity style={{ borderWidth: 1, borderRadius: 8, paddingTop: 12.41, paddingBottom: 12.41, paddingHorizontal: 96,  borderColor:'##113984', flexDirection:'row', justifyContent:'center' }} onPress={() => props.navigation.navigate('Screen_03')}>
+                        <TouchableOpacity style={{ borderWidth: 1, borderRadius: 8, paddingTop: 12.41, paddingBottom: 12.41, paddingHorizontal: 96,  borderColor:'##113984', flexDirection:'row', justifyContent:'center' }} onPress={() => props.navigation.navigate('Payment')}>
                             <View>
                                 <Image source={require('../../assets/paypal_short.png')} style={{ width: 21, height: 25, resizeMode:'contain', backgroundColor:'transparent', position: 'absolute', zIndex: 1, }} />
                                 <Image source={require('../../assets/paypal_short1.png')} style={{ width: 21, height: 25, resizeMode:'contain', backgroundColor:'transparent', zIndex: 0, marginTop: 3.78, marginLeft: 2.82 }} />
